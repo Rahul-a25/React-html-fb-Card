@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body >
+    <div id="root" style=" margin :50px 700px;background-color: rgb(255, 255, 255); padding: 40px; width: 350px; margin-left: 300px; height: '300px';"></div>
+    <script>
+        let card=React.createElement('div',{style:{width:'300px',height:'450px',padding:'30px',backgroundColor:'white',boxShadow:'0 0 10px black',borderRadius:'10px' }},[React.createElement('img',{src:'https://s3.ca-central-1.amazonaws.com/subphoto-photos/2018-10-25_16-41-21/large_069d54b87_2018_Besney_Jonathan-9837.jpg',style:{marginLeft:"50px",borderRadius:"50%",width:'200px',height:'200px'}}),React.createElement('h2',{style:{textAlign:'center'}},'Rahul Arora'),React.createElement('span',{style:{marginLeft:'80px'}},'Front-end developer'),React.createElement('div',{style:{display:'flex',justifyContent:'space-around'}},React.createElement('p',{style:{color: "rgb(142, 68, 173)",fontSize:"20px",fontWeight:"800"}},'26'),React.createElement('p',{style:{color: "rgb(142, 68, 173)",fontSize:"20px",fontWeight:"800"}},'94'),React.createElement('p',{style:{color: "rgb(142, 68, 173)",fontSize:"20px",fontWeight:"800"}},'139')),React.createElement('div',{style:{display:'flex',justifyContent:'space-around'}},React.createElement('h3',null,'Posts'),React.createElement('h3',null,'Followers'),React.createElement('h3',null,'Following')),React.createElement('div',{style:{display:'flex',justifyContent:'space-around'}},React.createElement("button",{style:{padding:"10px",width:"120px",backgroundColor: "rgb(142, 68, 173)",color:"white",fontSize:"20px",borderRadius:"15px",border:"none"}},'Follow'),React.createElement('button',{style:{padding:"10px",width:"120px",backgroundColor: "rgb(232, 67, 147)",color:"white",fontSize:"20px",borderRadius:"15px",border:"none"}},'Message'))])
+
+        ReactDOM.render(card,document.getElementById('root'))
+    </script>
+</body>
+</html>
